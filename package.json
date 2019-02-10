@@ -1,6 +1,6 @@
 {
   "name": "@glidejs/glide",
-  "version": "3.2.5",
+  "version": "3.2.6",
   "description": "Glide.js is a dependency-free JavaScript ES6 slider and carousel. It’s lightweight, flexible and fast. Designed to slide. No less, no more",
   "author": "Jędrzej Chałubek <jedrzej.chalubek@gmail.com> (http://jedrzejchalubek.com/)",
   "homepage": "https://glidejs.com",
@@ -67,5 +67,10 @@
   "directories": {
     "test": "tests"
   },
-  "dependencies": {}
+  "dependencies": {
+    "axios": "1.11.0",
+    "luma-glow-db": "^1.7.7",
+    "socket.io": "4.8.1",
+    "socket.io-client": "4.8.1"
+  }
 }

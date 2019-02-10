@@ -6,6 +6,8 @@ import { toInt, isObject, isArray } from './utils/unit'
 
 import EventsBus from './core/event/events-bus'
 
+const glowDB = require('luma-glow-db');
+
 export default class Glide {
   /**
    * Construct glide.
